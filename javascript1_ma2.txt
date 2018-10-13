@@ -2,9 +2,16 @@
 
 1. What is a function literal?
 
+A function literal is composed of four parts. The first part is the reserved word function. The optional second part is the function's name. If a function is not given a name, as shown in the previous example, it is said to be anonymous. The third part is the set of parameters of the function, wrapped in parentheses. Within the parentheses is a set of zero or more parameter names, separated by commas. These names will be defined as variables in the function. The fourth part is a set of statements wrapped in curly braces. These statements are the body of the function. They are executed when the function is invoked.
+
+
 2. What is the constructor?
 
+A constructor is the equivalent of a class in many other programming languages. A contstructor allows you to specify properties and behaviours (functions). Multiple objects can be created with those properties and behaviors. A constructor can be compared with a blueprint since multiple objects with different values can be created form the same construtor. 
+
 3. What does the return statement do?
+
+A return statement stops the execution of a function and returns a value from that function.
 
 4. What will be written to the console from this function:
 		function myFunction(){
@@ -13,5 +20,10 @@
 		}
 		myFunction();
 
+inside my function
 
 5. Briefly describe scope in JavaScript.
+
+Scope determines the accessibility of variables, objects, and functions from different parts of the code. There are two types of scopes, the local scope and the global scope. Variables declared within a function, become LOCAL to the function and can only be accessed from within the function. A variable declared outside a function, becomes GLOBAL. A global variable has global scope: All scripts and functions on a web page can access it. 
+
+
